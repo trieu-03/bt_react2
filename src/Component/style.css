@@ -1,0 +1,15 @@
+.card {
+    width: 300px;
+}
+
+.card-img-top {
+    width: 200px;
+    position: relative;
+}
+
+.imgGlass{
+    position: absolute;
+    width: 200px;
+    right: 47px;
+    top: 102px;
+}
