@@ -107,8 +107,8 @@ export default class Carousel extends Component {
 						<img className="card-img-top" style={{ width: '300px', height: '400px' }} src="./img/model.jpg" alt="" />
 						<img className='imgGlass' src={url} alt="" />
 						<div className="card-body">
-							<h4 className="card-title">{name}</h4>
-							<p className="card-text">{price}</p>
+							<h4 className="card-title text-info">{name}</h4>
+							<p className="card-text">Price: {price}$</p>
 						</div>
 					</div>
 				</div>
