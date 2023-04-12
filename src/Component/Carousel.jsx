@@ -89,8 +89,8 @@ export default class Carousel extends Component {
 				}}>
 					<img className="card-img-top" src={item.url} alt='' />
 					{/* <div className="card-body"> */}
-					<h4 className="card-title">{item.name}</h4>
-					<p className="card-text">{item.price}</p>
+					<h4 className="card-title text-info">{item.name}</h4>
+					<p className="card-text">Price: {item.price}$</p>
 					{/* </div> */}
 				</button>
 			)
